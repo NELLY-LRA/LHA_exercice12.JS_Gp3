@@ -1,0 +1,17 @@
+.error {
+    color: red;
+    font-weight:bold;
+  }
+  table {
+    margin-top: 50px;
+  }
+  td {
+    position: relative;
+  }
+  td .count {
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    font-size: 10px;
+    color: blue;
+}
