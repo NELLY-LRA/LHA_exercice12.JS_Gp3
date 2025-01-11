@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 12</title>
+    <link rel="stylesheet" href="D:\Exposé bootstrap\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <form id="tableForm" class="mt-4">
+          <h3 text align="center" class="mb-5" >Generateur de Tableau</h3>
+          <div class="row mb-3">
+            <div class="col">
+              <input type="text" id="dimension" class="form-control" placeholder="Dimension du tableau">
+            </div>
+            <div class="col">
+              <input type="text" id="minValue" class="form-control" placeholder="La valeur minimale">
+            </div>
+            <div class="col">
+              <input type="text" id="maxValue" class="form-control" placeholder="La valeur maximale">
+            </div>
+          </div>
+          <button type="button" id="generateTable" class="btn btn-primary w-100">Générez un tableau</button>
+          <p id="error" class="error mt-3"></p>
+        </form>
+        <div id="tableContainer" class="mt-4"></div>
+      </div>
+      <script src="script.js"></script>    
+</body>
+</html>
